@@ -7,10 +7,10 @@ class CreateProducts < ActiveRecord::Migration[8.0]
       t.string :image
       t.string :category
       t.text :description
-      t.float :rating
-      t.integer :reviews
-      t.boolean :in_stock
-      t.jsonb :features
+      t.float :rating, default: 0.0, null: false
+      t.integer :reviews, default: 0, null: false
+      t.boolean :in_stock, default: false, null: false
+      t.jsonb :features, default: [], null: false
 
       t.timestamps
     end

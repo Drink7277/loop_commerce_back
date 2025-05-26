@@ -21,10 +21,10 @@ ActiveRecord::Schema[8.0].define(version: 2025_05_26_154445) do
     t.string "image"
     t.string "category"
     t.text "description"
-    t.float "rating"
-    t.integer "reviews"
-    t.boolean "in_stock"
-    t.jsonb "features"
+    t.float "rating", default: 0.0, null: false
+    t.integer "reviews", default: 0, null: false
+    t.boolean "in_stock", default: false, null: false
+    t.jsonb "features", default: [], null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
