@@ -1,13 +1,13 @@
 json.id product.id
 json.name product.name
 json.price product.price
-json.original_price product.original_price
+json.originalPrice product.original_price
 json.image product.image
 json.category product.category
 json.description product.description
 json.rating product.rating
 json.reviews product.reviews
-json.in_stock product.in_stock
+json.inStock product.in_stock
 json.features product.features
 json.created_at product.created_at
 json.updated_at product.updated_at

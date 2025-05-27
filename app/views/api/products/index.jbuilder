@@ -3,4 +3,8 @@ json.data do
     json.partial! 'product', product:
   end
 end
-json.meta {}
+
+json.meta do
+  json.categories @categories
+  json.total @products.total_count
+end

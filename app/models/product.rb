@@ -12,5 +12,16 @@ class Product < ApplicationRecord
 
   # Scope examples
   scope :in_stock, -> { where(in_stock: true) }
-  scope :category, ->(category) { where(category: category) }
+
+  scope :category, ->(category) do
+    return self if category.blank?
+
+    where(category: category)
+  end
+
+  scope :search, ->(name) do
+    return self if name.blank?
+
+    where('products.name ilike ? or products.description ilike ?', "%#{name}%", "%#{name}%")
+  end
 end
