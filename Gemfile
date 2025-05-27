@@ -15,6 +15,7 @@ gem "puma", ">= 5.0"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
+
 # Use the database-backed adapters for Rails.cache, Active Job, and Action Cable
 gem "solid_cache"
 gem "solid_queue"
@@ -37,8 +38,9 @@ gem "rack-cors"
 
 gem "jbuilder", "~> 2.13"
 gem "kaminari", "~> 1.2"
-
+gem "avo", "~> 3.20"
 gem "bcrypt", "~> 3.1"
+gem "sprockets-rails", require: "sprockets/railtie"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -49,6 +51,7 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+  gem 'spring-commands-rspec'
 
   gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails", "~> 6.4"

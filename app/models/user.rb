@@ -6,8 +6,8 @@ class User < ApplicationRecord
   before_validation :generate_auth_token
 
   validates :email, presence: true, uniqueness: true, format: { with: URI::MailTo::EMAIL_REGEXP }
-  validates :password, presence: true, length: { minimum: 6 }, if: :password_digest_changed?
-  validates :auth_token, presence: true, uniqueness: true
+  validates :password, presence: true, length: { minimum: 8 }, if: :password_digest_changed?
+  validates :auth_token, uniqueness: true
 
   private
 
