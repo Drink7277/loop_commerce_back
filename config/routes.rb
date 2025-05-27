@@ -11,5 +11,9 @@ Rails.application.routes.draw do
   namespace :api do
     resources :products, only: [:index]
     resources :orders, only: [:create]
+    resource :users, only: [:create, :show] do
+      post :sign_in,  to: "users#sign_in"
+      delete :sign_out, to: "users#sign_out"
+    end
   end
 end

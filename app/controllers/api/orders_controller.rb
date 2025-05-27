@@ -1,17 +1,15 @@
-class Api::OrdersController < ApplicationController
+class Api::OrdersController < Api::BaseController
   def create
     @order = Order.new(order_params)
 
-    if @order.save
-      render json: { message: 'Order created successfully', order: @order }, status: :created
-    else
-      render json: { errors: @order.errors.full_messages }, status: :unprocessable_entity
-    end
+    return render status: :created if @order.save
+
+    render_errors @order.errors.full_messages
   end
 
   private
 
   def order_params
-    params.require(:order).permit(:total, details: {})
+    params.permit(:total, details: {})
   end
 end

@@ -22,6 +22,6 @@ class Product < ApplicationRecord
   scope :search, ->(name) do
     return self if name.blank?
 
-    where('products.name ilike ? or products.description ilike ?', "%#{name}%", "%#{name}%")
+    where("products.name ilike ? or products.description ilike ?", "%#{name}%", "%#{name}%")
   end
 end
