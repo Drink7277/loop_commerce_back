@@ -1,7 +1,6 @@
 class Api::OrdersController < Api::BaseController
   def create
     @order = Order.new(order_params)
-
     return render status: :created if @order.save
 
     render_errors @order.errors.full_messages
@@ -10,6 +9,6 @@ class Api::OrdersController < Api::BaseController
   private
 
   def order_params
-    params.permit(:total, details: {})
+    params.permit(:total, details: {}).merge(user: current_user)
   end
 end

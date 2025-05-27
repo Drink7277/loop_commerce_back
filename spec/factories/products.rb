@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :product do
-    name { "MyString" }
+    sequence(:name) { |seq| format("product#{seq}") }
     price { "9.99" }
     original_price { "9.99" }
     image { "MyString" }

@@ -8,7 +8,7 @@ class Avo::Resources::Order < Avo::BaseResource
   def fields
     field :id, as: :id
 
-    field :details, as: :code, language: 'javascript' do
+    field :details, as: :code, language: "javascript" do
       JSON.pretty_generate(record.details.as_json)
     end
 
