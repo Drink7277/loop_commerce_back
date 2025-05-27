@@ -125,7 +125,7 @@
   {
     name: "Coffee Mug",
     price: 24,
-    image: "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?w=500&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&h=500&fit=crop",
     category: "Drinkware",
     description: "Premium ceramic coffee mug with heat retention technology and comfortable grip.",
     rating: 4.2,
@@ -170,7 +170,7 @@
   {
     name: "Power Bank",
     price: 49,
-    image: "https://images.unsplash.com/photo-1609592094137-94190e775b24?w=500&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
     category: "Electronics",
     description: "High-capacity power bank with fast charging and multiple device support for on-the-go power.",
     rating: 4.5,
@@ -215,7 +215,7 @@
   {
     name: "Plant Pot",
     price: 29,
-    image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=500&h=500&fit=crop",
     category: "Home",
     description: "Modern ceramic plant pot with drainage system perfect for indoor plants and home decoration.",
     rating: 4.4,
@@ -226,14 +226,127 @@
   {
     name: "Candle",
     price: 39,
-    image: "https://images.unsplash.com/photo-1602874801007-9b3c8d97e9f5?w=500&h=500&fit=crop",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&h=500&fit=crop",
     category: "Home",
     description: "Luxury scented candle with natural soy wax and essential oils for relaxation and ambiance.",
     rating: 4.6,
     reviews: 1243,
     in_stock: true,
     features: ["Natural Soy Wax", "Essential Oils", "40hr Burn Time", "Luxury Scent"]
+  },
+  {
+    name: "Bluetooth Earbuds",
+    price: 59,
+    original_price: 89,
+    image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&h=500&fit=crop",
+    category: "Audio",
+    description: "Compact Bluetooth earbuds with noise isolation and 20-hour battery life.",
+    rating: 4.3,
+    reviews: 1123,
+    in_stock: true,
+    features: ["Noise Isolation", "20hr Battery", "Bluetooth 5.1", "Charging Case"]
+  },
+  {
+    name: "Smart Thermostat",
+    price: 199,
+    image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=500&h=500&fit=crop",
+    category: "Home",
+    description: "Wi-Fi enabled smart thermostat for energy-efficient home climate control.",
+    rating: 4.7,
+    reviews: 654,
+    in_stock: true,
+    features: ["Wi-Fi Enabled", "Energy Saving", "Touchscreen", "App Control"]
+  },
+  {
+    name: "Electric Toothbrush",
+    price: 79,
+    image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=500&h=500&fit=crop",
+    category: "Personal Care",
+    description: "Rechargeable electric toothbrush with multiple cleaning modes and timer.",
+    rating: 4.5,
+    reviews: 987,
+    in_stock: true,
+    features: ["Rechargeable", "Multiple Modes", "2-Min Timer", "Soft Bristles"]
+  },
+  {
+    name: "Wireless Charger",
+    price: 39,
+    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&h=500&fit=crop",
+    category: "Accessories",
+    description: "Fast wireless charger compatible with all Qi-enabled devices.",
+    rating: 4.4,
+    reviews: 1345,
+    in_stock: true,
+    features: ["Fast Charging", "Qi Compatible", "LED Indicator", "Slim Design"]
+  },
+  {
+    name: "Gaming Mouse Pad",
+    price: 29,
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=500&fit=crop",
+    category: "Accessories",
+    description: "Large gaming mouse pad with anti-slip base and RGB lighting.",
+    rating: 4.6,
+    reviews: 876,
+    in_stock: true,
+    features: ["Anti-Slip", "RGB Lighting", "Large Size", "Water Resistant"]
+  },
+  {
+    name: "Standing Desk",
+    price: 499,
+    original_price: 599,
+    image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?w=500&h=500&fit=crop",
+    category: "Furniture",
+    description: "Adjustable standing desk for ergonomic workspaces.",
+    rating: 4.8,
+    reviews: 543,
+    in_stock: true,
+    features: ["Height Adjustable", "Spacious Surface", "Sturdy Frame", "Easy Assembly"]
+  },
+  {
+    name: "Smart Light Bulb",
+    price: 24,
+    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=500&h=500&fit=crop",
+    category: "Lighting",
+    description: "Color-changing smart LED bulb with app and voice control.",
+    rating: 4.5,
+    reviews: 1321,
+    in_stock: true,
+    features: ["Color Changing", "App Control", "Voice Control", "Energy Efficient"]
+  },
+  {
+    name: "Fitness Tracker",
+    price: 99,
+    image: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=500&h=500&fit=crop",
+    category: "Wearables",
+    description: "Waterproof fitness tracker with heart rate and sleep monitoring.",
+    rating: 4.2,
+    reviews: 1109,
+    in_stock: true,
+    features: ["Heart Rate", "Sleep Monitor", "Waterproof", "Step Counter"]
+  },
+  {
+    name: "Noise Cancelling Earplugs",
+    price: 19,
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500&h=500&fit=crop",
+    category: "Personal Care",
+    description: "Reusable earplugs for noise reduction and comfortable sleep.",
+    rating: 4.1,
+    reviews: 432,
+    in_stock: true,
+    features: ["Reusable", "Noise Reduction", "Comfort Fit", "Travel Case"]
+  },
+  {
+    name: "Smart Plug",
+    price: 29,
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+    category: "Home",
+    description: "Wi-Fi smart plug for remote control of home devices.",
+    rating: 4.3,
+    reviews: 789,
+    in_stock: true,
+    features: ["Wi-Fi", "App Control", "Voice Assistant", "Energy Monitoring"]
   }
+  # Add more products as needed...
 ].each do |product_attr|
   Product.create(product_attr)
 end
