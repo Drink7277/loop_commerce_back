@@ -399,6 +399,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  dotenv
   factory_bot_rails (~> 6.4)
   jbuilder (~> 2.13)
   kamal

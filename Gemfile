@@ -53,6 +53,8 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
   gem 'spring-commands-rspec'
 
+  gem 'dotenv', require: 'dotenv/load'
+
   gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails", "~> 6.4"
   gem "rubocop", "~> 1.75"
