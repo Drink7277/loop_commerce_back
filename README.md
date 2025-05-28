@@ -21,17 +21,30 @@ A simple e-commerce backend API built with Ruby on Rails.
    bundle install
    ```
 
-3. **Database setup:**
+3. **Configure environment variables:**
+   - Copy `.env.example` to `.env` and edit as needed:
+     ```sh
+     cp .env.example .env
+     ```
+   - Set your database credentials and any secrets in `.env`:
+     ```
+     DATABASE_HOST=localhost
+     DATABASE_USERNAME=your_db_user
+     DATABASE_PASSWORD=your_db_password
+     DATABASE_NAME=loop_commerce_development
+     ```
+
+4. **Database setup:**
    ```sh
    rails db:create db:migrate db:seed
    ```
 
-4. **Run the test suite:**
+5. **Run the test suite:**
    ```sh
    bundle exec rspec
    ```
 
-5. **Start the server:**
+6. **Start the server:**
    ```sh
    rails server
    ```
@@ -73,10 +86,7 @@ A simple e-commerce backend API built with Ruby on Rails.
 
 ## Deployment
 
-- Standard Rails deployment (Heroku, Render, etc.)
-- Ensure environment variables and database are configured.
+- now is deploy on Render https://loop-commerce-back.onrender.com
+- for browsing data please visit https://loop-commerce-back.onrender.com/avo
 
 ---
-
-**Note:**
-This project is for demonstration purposes. Please review and update security, authentication, and error handling for production use.
