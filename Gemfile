@@ -51,9 +51,9 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem 'spring-commands-rspec'
+  gem "spring-commands-rspec"
 
-  gem 'dotenv', require: 'dotenv/load'
+  gem "dotenv", require: "dotenv/load"
 
   gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails", "~> 6.4"
