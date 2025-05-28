@@ -7,6 +7,10 @@ bundle install
 # bin/rails assets:precompile
 # bin/rails assets:clean
 
+echo "=====DATABASE_URL===="
+echo "$DATABASE_URL"
+echo "========="
+
 # If you have a paid instance type, we recommend moving
 # database migrations like this one from the build command
 # to the pre-deploy command:
