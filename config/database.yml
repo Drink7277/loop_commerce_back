@@ -18,11 +18,13 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-
+  host: <%= ENV['DATABASE_HOST'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD']  %>
 
 development:
   <<: *default
-  database: loop_commerce_back_development
+  database: <%= ENV.fetch("DATABASE_NAME") { 'loop_commerce_back_development' } %>
 
   # The specified database role being used to connect to PostgreSQL.
   # To create additional roles in PostgreSQL see `$ createuser --help`.
@@ -79,20 +81,5 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  primary: &primary_production
-    <<: *default
-    database: loop_commerce_back_production
-    username: loop_commerce_back
-    password: <%= ENV["LOOP_COMMERCE_BACK_DATABASE_PASSWORD"] %>
-  cache:
-    <<: *primary_production
-    database: loop_commerce_back_production_cache
-    migrations_paths: db/cache_migrate
-  queue:
-    <<: *primary_production
-    database: loop_commerce_back_production_queue
-    migrations_paths: db/queue_migrate
-  cable:
-    <<: *primary_production
-    database: loop_commerce_back_production_cable
-    migrations_paths: db/cable_migrate
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
