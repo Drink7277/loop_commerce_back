@@ -19,7 +19,7 @@
     rating: 4.8,
     reviews: 2847,
     in_stock: true,
-    features: ["Active Noise Cancellation", "30hr Battery", "Premium Build", "Wireless Charging"]
+    features: [ "Active Noise Cancellation", "30hr Battery", "Premium Build", "Wireless Charging" ]
   },
   {
     name: "Smart Fitness Watch",
@@ -30,7 +30,7 @@
     rating: 4.6,
     reviews: 1923,
     in_stock: true,
-    features: ["Heart Rate Monitor", "GPS Tracking", "Water Resistant", "7-day Battery"]
+    features: [ "Heart Rate Monitor", "GPS Tracking", "Water Resistant", "7-day Battery" ]
   },
   {
     name: "Ultra HD Webcam",
@@ -41,7 +41,7 @@
     rating: 4.7,
     reviews: 856,
     in_stock: true,
-    features: ["4K Resolution", "Auto Focus", "Built-in Mic", "Plug & Play"]
+    features: [ "4K Resolution", "Auto Focus", "Built-in Mic", "Plug & Play" ]
   },
   {
     name: "Ergonomic Office Chair",
@@ -53,7 +53,7 @@
     rating: 4.5,
     reviews: 1247,
     in_stock: true,
-    features: ["Lumbar Support", "Height Adjustable", "Breathable Mesh", "5-Year Warranty"]
+    features: [ "Lumbar Support", "Height Adjustable", "Breathable Mesh", "5-Year Warranty" ]
   },
   {
     name: "Mechanical Keyboard",
@@ -64,7 +64,7 @@
     rating: 4.9,
     reviews: 3421,
     in_stock: true,
-    features: ["RGB Backlighting", "Tactile Switches", "USB-C", "Gaming Mode"]
+    features: [ "RGB Backlighting", "Tactile Switches", "USB-C", "Gaming Mode" ]
   },
   {
     name: "Wireless Mouse",
@@ -75,7 +75,7 @@
     rating: 4.4,
     reviews: 967,
     in_stock: true,
-    features: ["Ergonomic Design", "Long Battery Life", "Precision Tracking", "Silent Clicks"]
+    features: [ "Ergonomic Design", "Long Battery Life", "Precision Tracking", "Silent Clicks" ]
   },
   {
     name: "Portable Speaker",
@@ -87,7 +87,7 @@
     rating: 4.6,
     reviews: 1534,
     in_stock: true,
-    features: ["Waterproof", "12hr Battery", "Bluetooth 5.0", "Compact Design"]
+    features: [ "Waterproof", "12hr Battery", "Bluetooth 5.0", "Compact Design" ]
   },
   {
     name: "Laptop Stand",
@@ -98,7 +98,7 @@
     rating: 4.3,
     reviews: 743,
     in_stock: true,
-    features: ["Adjustable Height", "Aluminum Build", "Better Cooling", "Portable"]
+    features: [ "Adjustable Height", "Aluminum Build", "Better Cooling", "Portable" ]
   },
   {
     name: "USB-C Hub",
@@ -109,7 +109,7 @@
     rating: 4.5,
     reviews: 892,
     in_stock: true,
-    features: ["Multiple Ports", "4K HDMI", "Fast Charging", "Compact Design"]
+    features: [ "Multiple Ports", "4K HDMI", "Fast Charging", "Compact Design" ]
   },
   {
     name: "Desk Lamp",
@@ -120,7 +120,7 @@
     rating: 4.7,
     reviews: 654,
     in_stock: true,
-    features: ["LED Technology", "Adjustable Brightness", "Color Temperature", "Touch Control"]
+    features: [ "LED Technology", "Adjustable Brightness", "Color Temperature", "Touch Control" ]
   },
   {
     name: "Coffee Mug",
@@ -131,7 +131,7 @@
     rating: 4.2,
     reviews: 1876,
     in_stock: true,
-    features: ["Ceramic Material", "Heat Retention", "Comfortable Grip", "Dishwasher Safe"]
+    features: [ "Ceramic Material", "Heat Retention", "Comfortable Grip", "Dishwasher Safe" ]
   },
   {
     name: "Phone Case",
@@ -142,7 +142,7 @@
     rating: 4.4,
     reviews: 2143,
     in_stock: true,
-    features: ["Drop Protection", "Wireless Charging", "Slim Design", "Easy Grip"]
+    features: [ "Drop Protection", "Wireless Charging", "Slim Design", "Easy Grip" ]
   },
   {
     name: "Monitor",
@@ -154,7 +154,7 @@
     rating: 4.8,
     reviews: 1342,
     in_stock: true,
-    features: ["4K Resolution", "IPS Panel", "USB-C", "27-inch Display"]
+    features: [ "4K Resolution", "IPS Panel", "USB-C", "27-inch Display" ]
   },
   {
     name: "Backpack",
@@ -165,7 +165,7 @@
     rating: 4.6,
     reviews: 987,
     in_stock: true,
-    features: ["Laptop Compartment", "Water Resistant", "Multiple Pockets", "Comfortable Straps"]
+    features: [ "Laptop Compartment", "Water Resistant", "Multiple Pockets", "Comfortable Straps" ]
   },
   {
     name: "Power Bank",
@@ -176,7 +176,7 @@
     rating: 4.5,
     reviews: 1654,
     in_stock: true,
-    features: ["High Capacity", "Fast Charging", "Multiple Ports", "LED Indicator"]
+    features: [ "High Capacity", "Fast Charging", "Multiple Ports", "LED Indicator" ]
   },
   {
     name: "Sunglasses",
@@ -188,7 +188,7 @@
     rating: 4.7,
     reviews: 823,
     in_stock: true,
-    features: ["Polarized Lenses", "UV Protection", "Titanium Frame", "Lightweight"]
+    features: [ "Polarized Lenses", "UV Protection", "Titanium Frame", "Lightweight" ]
   },
   {
     name: "Water Bottle",
@@ -199,7 +199,7 @@
     rating: 4.8,
     reviews: 2156,
     in_stock: true,
-    features: ["24hr Cold", "12hr Hot", "Stainless Steel", "Leak Proof"]
+    features: [ "24hr Cold", "12hr Hot", "Stainless Steel", "Leak Proof" ]
   },
   {
     name: "Notebook",
@@ -210,7 +210,7 @@
     rating: 4.3,
     reviews: 1432,
     in_stock: true,
-    features: ["Leather Bound", "Dotted Pages", "Premium Paper", "Elastic Band"]
+    features: [ "Leather Bound", "Dotted Pages", "Premium Paper", "Elastic Band" ]
   },
   {
     name: "Plant Pot",
@@ -221,7 +221,7 @@
     rating: 4.4,
     reviews: 765,
     in_stock: true,
-    features: ["Ceramic Material", "Drainage System", "Modern Design", "Indoor Use"]
+    features: [ "Ceramic Material", "Drainage System", "Modern Design", "Indoor Use" ]
   },
   {
     name: "Candle",
@@ -232,7 +232,7 @@
     rating: 4.6,
     reviews: 1243,
     in_stock: true,
-    features: ["Natural Soy Wax", "Essential Oils", "40hr Burn Time", "Luxury Scent"]
+    features: [ "Natural Soy Wax", "Essential Oils", "40hr Burn Time", "Luxury Scent" ]
   },
   {
     name: "Bluetooth Earbuds",
@@ -244,7 +244,7 @@
     rating: 4.3,
     reviews: 1123,
     in_stock: true,
-    features: ["Noise Isolation", "20hr Battery", "Bluetooth 5.1", "Charging Case"]
+    features: [ "Noise Isolation", "20hr Battery", "Bluetooth 5.1", "Charging Case" ]
   },
   {
     name: "Smart Thermostat",
@@ -255,7 +255,7 @@
     rating: 4.7,
     reviews: 654,
     in_stock: true,
-    features: ["Wi-Fi Enabled", "Energy Saving", "Touchscreen", "App Control"]
+    features: [ "Wi-Fi Enabled", "Energy Saving", "Touchscreen", "App Control" ]
   },
   {
     name: "Electric Toothbrush",
@@ -266,7 +266,7 @@
     rating: 4.5,
     reviews: 987,
     in_stock: true,
-    features: ["Rechargeable", "Multiple Modes", "2-Min Timer", "Soft Bristles"]
+    features: [ "Rechargeable", "Multiple Modes", "2-Min Timer", "Soft Bristles" ]
   },
   {
     name: "Wireless Charger",
@@ -277,7 +277,7 @@
     rating: 4.4,
     reviews: 1345,
     in_stock: true,
-    features: ["Fast Charging", "Qi Compatible", "LED Indicator", "Slim Design"]
+    features: [ "Fast Charging", "Qi Compatible", "LED Indicator", "Slim Design" ]
   },
   {
     name: "Gaming Mouse Pad",
@@ -288,7 +288,7 @@
     rating: 4.6,
     reviews: 876,
     in_stock: true,
-    features: ["Anti-Slip", "RGB Lighting", "Large Size", "Water Resistant"]
+    features: [ "Anti-Slip", "RGB Lighting", "Large Size", "Water Resistant" ]
   },
   {
     name: "Standing Desk",
@@ -300,7 +300,7 @@
     rating: 4.8,
     reviews: 543,
     in_stock: true,
-    features: ["Height Adjustable", "Spacious Surface", "Sturdy Frame", "Easy Assembly"]
+    features: [ "Height Adjustable", "Spacious Surface", "Sturdy Frame", "Easy Assembly" ]
   },
   {
     name: "Smart Light Bulb",
@@ -311,7 +311,7 @@
     rating: 4.5,
     reviews: 1321,
     in_stock: true,
-    features: ["Color Changing", "App Control", "Voice Control", "Energy Efficient"]
+    features: [ "Color Changing", "App Control", "Voice Control", "Energy Efficient" ]
   },
   {
     name: "Fitness Tracker",
@@ -322,7 +322,7 @@
     rating: 4.2,
     reviews: 1109,
     in_stock: true,
-    features: ["Heart Rate", "Sleep Monitor", "Waterproof", "Step Counter"]
+    features: [ "Heart Rate", "Sleep Monitor", "Waterproof", "Step Counter" ]
   },
   {
     name: "Noise Cancelling Earplugs",
@@ -333,7 +333,7 @@
     rating: 4.1,
     reviews: 432,
     in_stock: true,
-    features: ["Reusable", "Noise Reduction", "Comfort Fit", "Travel Case"]
+    features: [ "Reusable", "Noise Reduction", "Comfort Fit", "Travel Case" ]
   },
   {
     name: "Smart Plug",
@@ -344,7 +344,7 @@
     rating: 4.3,
     reviews: 789,
     in_stock: true,
-    features: ["Wi-Fi", "App Control", "Voice Assistant", "Energy Monitoring"]
+    features: [ "Wi-Fi", "App Control", "Voice Assistant", "Energy Monitoring" ]
   }
   # Add more products as needed...
 ].each do |product_attr|
