@@ -57,7 +57,7 @@ group :development, :test do
 
   gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails", "~> 6.4"
-  gem "rubocop", "~> 1.75"
+  gem "rubocop", "~> 1.78"
   gem "shoulda-matchers", "~> 6.5"
   gem "pry-byebug", "~> 3.11"
 end
