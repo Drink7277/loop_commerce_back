@@ -38,7 +38,7 @@ gem "rack-cors"
 
 gem "jbuilder", "~> 2.13"
 gem "kaminari", "~> 1.2"
-gem "avo", "~> 3.20"
+gem "avo", "~> 3.23"
 gem "bcrypt", "~> 3.1"
 gem "sprockets-rails", require: "sprockets/railtie"
 
